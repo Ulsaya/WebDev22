@@ -1,0 +1,24 @@
+#upper {
+  font-size: 32px;
+  font-family: "Courier";
+  color: darkgreen;
+  font-weight: bolder;
+}
+
+.case{
+  margin:20px;
+}
+.words{
+  font-size: 18px;
+  font-weight: bold;
+  color: blueviolet;
+  margin-top: 5px;
+  font-family: "Courier";
+  width: auto;
+}
+.bts{
+  margin: 10px;
+}
+#unique{
+  width: 100% ;
+}

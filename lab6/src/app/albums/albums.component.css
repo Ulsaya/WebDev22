@@ -1,0 +1,19 @@
+#case{
+  margin:20px;
+}
+#upper{
+  font-size: 32px;
+  font-family: "Courier";
+  color: darkgreen;
+  font-weight: bolder;
+}
+.listit{
+  font-size: 18px;
+  font-weight: bold;
+  color: blueviolet;
+  margin-top: 5px;
+  font-family: "Courier";
+}
+.bts{
+  margin-right: 10px;
+}

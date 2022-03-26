@@ -1,0 +1,27 @@
+<div class="case" *ngIf="loaded">
+<h2 id="upper">Album Detail #{{album.id}}</h2>
+
+<p class="words"> Id of the author is: {{album.userId}}</p>
+
+<input class="words" id="unique" type="text" [(ngModel)]="album.title">
+  <br>
+  <div>
+  <button class="bts" (click)="updateAlbum()">Save</button>
+  <button class="bts" (click)="goBack()">Go Back</button>
+  <button class="bts" (click)="showPhotos()">Show photos</button>
+  </div>
+</div>
+
+<div class="case">
+<p *ngIf="!loaded"> Loading post ...</p>
+</div>
+
+<ul>
+  <li class="words" *ngFor="let photo of photos">
+  {{photo.id}} {{photo.title}}
+    <br/>
+    <a href="{{photo.url}}">
+    <img src="{{photo.thumbnailUrl}}">
+    </a>
+  </li>
+</ul>
